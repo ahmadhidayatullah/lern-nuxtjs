@@ -1,10 +1,10 @@
 # belajarnuxt
 
-> My kickass Nuxt.js project
+> My simple Nuxt.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm run install
 

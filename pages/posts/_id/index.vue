@@ -10,6 +10,9 @@
     </section>
     <section class="post-feedback">
       <p>let mi know what you thin the post, send email :</p>
+      <p>
+        <nuxt-link to="/">Back</nuxt-link>
+      </p>
     </section>
   </div>
 </template>
