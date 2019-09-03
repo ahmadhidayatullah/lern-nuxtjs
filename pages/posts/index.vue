@@ -1,14 +1,17 @@
 <template>
   <div class="posts-page">
-    <li>
-      <nuxt-link to="/posts/1">Title 1</nuxt-link>
-    </li>
-    <li>
-      <nuxt-link to="/posts/2">Title 2</nuxt-link>
-    </li>
-    <li>2</li>
+    <PostList />
   </div>
 </template>
+
+<script>
+import PostList from "@/components/Posts/PostList";
+export default {
+  components: {
+    PostList
+  }
+};
+</script>
 
 <style scoped>
 .posts-page {
